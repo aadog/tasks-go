@@ -26,6 +26,6 @@ func (b *Background) Run(fn func() error) {
 		}
 	}()
 }
-func NewBackground() *Background {
+func New() *Background {
 	return &Background{}
 }
