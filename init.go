@@ -1,1 +1,1 @@
-package tasks_go
+package tasks
