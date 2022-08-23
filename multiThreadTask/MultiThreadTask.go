@@ -99,5 +99,6 @@ func New(ctx context.Context, data *dict.DictList, thread int) *MultiThreadTask 
 	m.ctx = ctx
 	m.data = data
 	m.thread = thread
+	m.cboard = board.New(data.Len())
 	return m
 }
